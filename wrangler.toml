@@ -1,0 +1,4 @@
+name = "home-imsyy-pub"  # Worker名称（自定义）
+compatibility_date = "2025-11-10"  # 兼容性日期，填当天
+assets = { directory = "./dist" }  # 静态文件目录
+workers_dev = true  # 启用 workers.dev 临时域名
