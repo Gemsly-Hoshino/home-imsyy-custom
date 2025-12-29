@@ -13,7 +13,7 @@
           {{ fullYear }}
           <a :href="siteUrl">{{ siteAuthor }}</a>
            &nbsp;|&nbsp;
-          <a v-if="siteIcp" href="https://icp.gov.moe/?keyword=20250437" target="_blank">
+          <a v-if="siteIcp" href="https://icp.gov.moe/?keyword=xxxx" target="_blank">
             {{ siteIcp }}
           </a>
             &nbsp;|&nbsp;
