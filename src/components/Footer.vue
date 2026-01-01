@@ -8,7 +8,7 @@
           <span v-if="startYear < fullYear"
             class="site-start">
             {{ startYear }}
-            -
+            ~
           </span>
           {{ fullYear }}
           <a :href="siteUrl">{{ siteAuthor }}</a>
