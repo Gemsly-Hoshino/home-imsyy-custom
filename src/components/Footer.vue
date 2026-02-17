@@ -17,7 +17,7 @@
             {{ siteIcp }}
           </a>
             &nbsp;|&nbsp;
-          <a v-if="siteIcp" href="https://docs.harrverse.com/support/opensource/home.html" target="_blank">
+          <a v-if="siteIcp" href="https://docs.gemslyho.org/support/opensource/home" target="_blank">
             开放源代码许可
           </a>
         </span>
