@@ -45,7 +45,7 @@ const changeBg = (type) => {
   } else if (type == 2) {
     bgUrl.value = "https://tu.ltyuanfang.cn/api/fengjing.php";
   } else if (type == 3) {
-    bgUrl.value = "https://ap.randomlandspace-anime.gemsly.top";
+    bgUrl.value = "https://img.catcdn.cn/ba/?type=cg";
   }
 };
 
