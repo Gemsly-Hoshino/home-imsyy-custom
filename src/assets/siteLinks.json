@@ -2,36 +2,36 @@
   {
     "icon": "Blog",
     "name": "博客",
-    "link": "https://blog.harrverse.com/"
+    "link": "https://blog.gemslyho.org/"
   },
   {
     "icon": "Cloud",
     "name": "云存储",
-    "link": "https://oplist.harrverse.com/"
+    "link": "https://oplist.gemslyho.org/"
   },
   {
     "icon": "CompactDisc",
     "name": "音乐",
-    "link": "http://music.harrverse.com/"
+    "link": "http://music.gemslyho.org/"
   },
   {
     "icon": "Compass",
     "name": "导航站",
-    "link": "https://nav.harrverse.com/"
+    "link": "https://nav.gemslyho.org/"
   },
   {
     "icon": "Book",
     "name": "友情链接",
-    "link": "https://blog.harrverse.com/friends"
+    "link": "https://blog.gemslyho.org/friends"
   },
   {
     "icon": "Info",
     "name": "关于",
-    "link": "https://blog.harrverse.com/about"
+    "link": "https://blog.gemslyho.org/about"
   },
   {
     "icon": "LaptopCode",
     "name": "站点检测",
-    "link": "https://status.harrverse.com/"
+    "link": "https://status.gemslyho.org/"
   }
 ]

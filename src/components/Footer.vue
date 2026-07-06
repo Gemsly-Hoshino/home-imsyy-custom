@@ -13,11 +13,11 @@
           {{ fullYear }}
           <a :href="siteUrl">{{ siteAuthor }}</a>
            &nbsp;|&nbsp;
-          <a v-if="siteIcp" href="https://icp.gov.moe/?keyword=xxxx" target="_blank">
+          <a v-if="siteIcp" href="https://icp.gov.moe/?keyword=20260010" target="_blank">
             {{ siteIcp }}
           </a>
             &nbsp;|&nbsp;
-          <a v-if="siteIcp" href="https://docs.harrverse.com/support/opensource/home.html" target="_blank">
+          <a v-if="siteIcp" href="https://docs.gemslyho.org/support/opensource/home" target="_blank">
             开放源代码许可
           </a>
         </span>
@@ -53,7 +53,7 @@ const siteIcp = ref(import.meta.env.VITE_SITE_ICP);
 const siteAuthor = ref(import.meta.env.VITE_SITE_AUTHOR);
 const siteUrl = computed(() => {
   const url = import.meta.env.VITE_SITE_URL;
-  if (!url) return "https://blog.harrverse.com";
+  if (!url) return "https://blog.gemslyho.org";
   // 判断协议前缀
   if (!url.startsWith("http://") && !url.startsWith("https://")) {
     return "//" + url;
