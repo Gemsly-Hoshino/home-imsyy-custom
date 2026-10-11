@@ -12,14 +12,14 @@
           </span>
           {{ fullYear }}
           <a :href="siteUrl">{{ siteAuthor }}</a>
-           &nbsp;|&nbsp;
-          <a v-if="siteIcp" href="https://icp.gov.moe/?keyword=20260010" target="_blank">
-            {{ siteIcp }}
-          </a>
-            &nbsp;|&nbsp;
-          <a v-if="siteIcp" href="https://docs.gemslyho.org/open-source-license/home.html" target="_blank">
-            开放源代码许可
-          </a>
+        </span>
+        <span class="separator">|</span>
+        <span class="footer-links">
+          <a href="https://docs.gemslyho.org/terms-of-services.html" target="_blank" rel="noopener noreferrer">Terms of Service</a>
+          <span class="separator">|</span>
+          <a href="https://docs.gemslyho.org/privacy-policy.html" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+          <span class="separator">|</span>
+          <a href="https://docs.gemslyho.org/open-source-license/home.html" target="_blank" rel="noopener noreferrer">Open Source License</a>
         </span>
       </div>
       <div v-else class="lrc">
@@ -78,6 +78,25 @@ const siteUrl = computed(() => {
   white-space: nowrap;
   .power {
     animation: fade 0.3s;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    .separator {
+      margin: 0 4px;
+      opacity: 0.6;
+    }
+    .footer-links {
+      display: inline;
+      a {
+        color: inherit;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
   }
   .lrc {
     padding: 0 20px;
